@@ -6,7 +6,7 @@ Page({
     },
     showToast() {
         this.wetoast.toast({
-            content: '嘻嘻哈哈',
+            content: '嘻嘻哈哈，我是toast',
             duration: 1500
         })
     }
