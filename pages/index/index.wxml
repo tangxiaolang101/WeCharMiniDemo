@@ -1,0 +1,5 @@
+<import src="../../templates/toast/toast.wxml" />
+
+<button bindtap="showToast">show me</button>
+
+<template is="toast" data="{{...wetoast}}"/>
